@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("invoker.jpg");
+    font-family: Bookman, URW Bookman L, serif;
+}
+
+/* SIDE BAR */
+
+.side_bar {
+    width: 30%;
+    background-color: dimgray;
+    height: 100%;
+}
+
+.side_bar ul li {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: normal;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+/* CONTENT */
+
+.content {
+    width: 100%;
+    height: 553px;
+}
+
+.inner_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+/* SHORT INFO */
+
+.main_content {
+    width: 70%;
+}
+
+.inner_main_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 120px;
+}
+
+.main_content span {
+    background-color: crimson;
+    width: 500px;
+    height: 160px;
+    font-size: 15px;
+    color: aqua;
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+    position: absolute;
+    border-left: 4px solid darkblue;
+    border-top: 4px solid darkblue;
+    border-bottom: 4px solid darkblue;
+    border-right: 4px solid darkblue;
+    right: 0;
+}
+
+/* REGISTER */
+
+.register {
+    padding: 10px;
+}
+
+.reg {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.reg a {
+    color: slateblue;
+}
+
+
+/* SPAN */
+
+span {
+    color: bisque;
+}
